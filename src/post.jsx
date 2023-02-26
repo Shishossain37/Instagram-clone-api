@@ -5,7 +5,7 @@ const Post=()=>{
     const [data, setData] = useState([])
     
   useEffect(()=>{
-    fetch("/app/posts")
+    fetch("https://instagram-clone-api-vyzr.onrender.com/app/posts")
     .then((res)=>{return res.json()})
     .then((val)=>{
       console.log(val)
