@@ -1,0 +1,34 @@
+.logPage-container{
+    width: 100vw;
+    height: 100vh;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    
+}
+.log{
+    width: 50vw;
+    height: 100vh;
+    
+}
+.logImg-container>img{
+    width: 100%;
+    height: 100%;
+}
+.logButton-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size: 24px;
+}
+.log-btn{
+    width: 120px;
+    font-size: 24px;
+    border-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: green;
+    border-radius: 5px;
+}
+

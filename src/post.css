@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(145deg, rgb(31, 238, 203) 50%, rgb(94, 255, 0));
+}
+.main-container{
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid gray;
+    margin-top: 5px;
+    background:linear-gradient(30deg, rgb(219, 156, 156) 50%, rgb(113, 113, 228));
+}
+*{
+    color: orangered;
+    
+}
+.header{
+    background-color: white;
+}
+.name-container{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-content:space-around;
+
+}
+.postImage{
+    width: 100%;
+}
+.name-container{
+    height: 50px; 
+    margin: auto 5px;
+} 
+.Section{
+    height: 20px;
+}
+.Section>h4{
+    margin: 0px;
+}
+.Section>p{
+    margin: 0px;
+}
+.ellipsis{
+    margin: 10px 15px;   
+}
+.Fav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 5px;
+    margin-bottom:0px ;
+    height: 25px;
+
+}
+.Fav-container>div>i{
+    margin: 10px;
+}
+.Fav-container>p{
+    margin:5px 10px ;
+    margin-top: 2px;
+    font-size: 12px;
+}
+.Fav-container>div{
+    margin: 0px;
+    padding: 0px;
+}
+.likes{
+    margin: 0px 10px;
+    text-align: left;
+    font-size: 12px;
+    
+}
+.foot{
+    text-align: left;
+    margin: 2px;
+    margin-left: 10px;
+}
+.back{
+    text-align: left;
+}
