@@ -12,7 +12,7 @@ function Add(props) {
         let dataFromForm = Object.fromEntries(formData.entries());
         console.log(dataFromForm);
 
-        await fetch("/app/posts", {
+        await fetch("https://instagram-clone-api-vyzr.onrender.com/app/posts", {
             method: "post",
             body: formData,
             redirect: "follow"
